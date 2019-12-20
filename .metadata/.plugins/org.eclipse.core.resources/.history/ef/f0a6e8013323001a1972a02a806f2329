@@ -1,0 +1,39 @@
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculadora</title>
+</head>
+<body>
+<h1>Calculadora do Ale no h1
+</h1>
+
+<form action="Operation">
+  First number:<br>
+  <input type="text" name="firstnumber" value="">
+  <br>
+  Last number:<br>
+  <input type="text" name="lastnumber" value="">
+  <br><br>
+   <input type="radio" name="Operacao" value="soma" checked> Soma<br>
+  <input type="radio" name="Operacao" value="subtracao"> Subtracao<br>
+  <input type="radio" name="Operacao" value="divisao"> Divisao<br>  
+  <input type="radio" name="Operacao" value="multiplicacao"> Multiplicacao<br> 
+  <input type="submit" value="Operar">
+</form> 
+
+<h1>More Three radio button</h1>
+<form action="String operation">
+ <input type="text" name="firstnumber" value=""> <br>
+<input type="radio" name="st_front" value="String_operation" checked> Maiusculo<br>
+<input type="radio" name="st_front" value="String_operation"> Minusculo<br>
+<input type="radio" name="st_front" value="String_operation"> Backwards<br>
+<input type="submit" value="Operar ">
+</form>
+
+
+</body>
+</html>
